@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="Style">
+        <file>style.qss</file>
+    </qresource>
+    <qresource prefix="/Images">
+        <file>Images/qt_icon.ico</file>
+    </qresource>
+    <qresource prefix="/Translation">
+<!--        <file>Lang/English.qm</file>-->
+    </qresource>
+</RCC>
