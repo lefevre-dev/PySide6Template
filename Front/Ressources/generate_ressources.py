@@ -24,10 +24,10 @@ def generate_ressources():
         return False
 
     # Vérifier que pyside6-rcc est disponible
-    if not check_pyside6_rcc():
-        print("Erreur: pyside6-rcc n'est pas disponible.")
-        print("Installez PySide6 avec: pip install PySide6")
-        return False
+    # if not check_pyside6_rcc():
+    #     print("Erreur: pyside6-rcc n'est pas disponible.")
+    #     print("Installez PySide6 avec: pip install PySide6")
+    #     return False
 
     try:
         cmd = ["pyside6-rcc", qrc_file, "-o", output_file]
